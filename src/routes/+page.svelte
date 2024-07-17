@@ -5,7 +5,7 @@
 <Foo foo="">
     {#snippet snippetOne()}
     {/snippet}
-    <label>Test</label>
+    <div></div>
     {#snippet snippetTwo()}
     {/snippet}
 </Foo>
