@@ -3,9 +3,7 @@
 </script>
 
 <Foo >
-    {#snippet snippetOne()}
-    {/snippet}
+    {#snippet foo()}{/snippet}
     <div></div>
-    {#snippet snippetTwo()}
-    {/snippet}
+    {#snippet bar()}{/snippet}
 </Foo>
