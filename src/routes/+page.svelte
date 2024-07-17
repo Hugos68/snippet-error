@@ -2,7 +2,7 @@
     import Foo from './Foo.svelte';
 </script>
 
-<Foo foo="">
+<Foo >
     {#snippet snippetOne()}
     {/snippet}
     <div></div>
